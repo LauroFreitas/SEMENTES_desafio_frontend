@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="pagina">
+    <div class="imagem">
+        <img src="/img/svg.png" alt="imagem">
+    </div>
+    <form class="conteudo">
+        <div class="itens">
+            <div class="titulos">
+                <p class="popup">Bem-vindo de volta</p>
+                <p class="facaseulogin">Faça login na sua conta</p>
+            </div>
+            <div class="formulario_itens">
+                <div class="grupo">
+                    <div class="div_email">
+                        <label class="label_email" for="email">E-mail</label>
+                        <input type="text" id="email" class="login" placeholder="exemplo@gmail.com">
+                    </div>
 
-        </header>
-        <form>
-            <div>
-                <h2 class="popup">Bem-vindo de volta</h2>
-                <h1> Faça login na sua conta</h1>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" class="senha" placeholder="0123456789">
+
+                    <div>
+                        <input type="checkbox" id="lembrar" class="checkbox">
+                        <label for="lembrar">Lembre de mim</label>
+                        <a href="recuperarSenha.html">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+
+                <button type="submit" class="btnLogin">Entrar na conta</button>
+                <button type="button" class="btnGoogle">Ou faça login com o Google</button>
+                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
             </div>
-            <div>
-                <p>
-                    <label>
-                        E-mail
-                    </label>
-                    <input type="text" class="login" placeholder="exemplo@gmail.com">
-                </p>
-                <p>
-                    <label>
-                        Senha
-                    </label>
-                    <input type="password" class="senha" placeholder="0123456789">
-                </p>
-               <p>
-                   <input type="checkbox" class="checkbox">
-                   <label>
-                       Lembre de mim
-                   </label>
-                    <a href="recuperarSenha.html">
-                        Esqueceu sua senha?
-                    </a>
-               </p>
-                <p>
-                    <button class="btnLogin"> Entrar na conta</button>
-                </p>
-                <p>
-                    <button class="btnGoogle"> Ou faça login com o Google</button>
-                </p>
-                <p>
-                    Não tem uma conta?
-                    <a href="cadastro.html">Cadastre-se</a>
-                </p>
-            </div>
-        </form>
-    </body>
+        </div>
+    </form>
+</div>
+</body>
 </html>

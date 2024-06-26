@@ -1,0 +1,98 @@
+body {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #1A202C;
+    margin: 0;
+    height: 100vh;
+}
+
+.titulos {
+    width: 344px;
+    height: 69px;
+    margin-left:0px;
+}
+.grupo{
+    width: 400px;
+    height: 235px;
+
+}
+.div_email{
+    width: 400px;
+    height: 81px;
+
+}
+.facaseulogin {
+    font-size: 32px;
+    font-weight: 600;
+    width: 344;
+    margin: 0;
+}
+
+.popup {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21.76px;
+    text-align: left;
+    width: 174px;
+    height: 22px;
+    gap: 0px;
+    color: #1A202C;
+}
+
+.formulario_itens{
+    margin-top: 56px;
+}
+
+.itens {
+    width: 100%; /* Ajustado para ocupar todo o espaço disponível */
+    max-width: 400px; /* Exemplo de largura máxima */
+    height: 614px;
+    margin:64px;
+}
+
+.pagina {
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 958px;
+    background-color: #F3FFF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 500px;
+    height: 420px;
+}
+
+.conteudo {
+    width: 962px;
+    height: 1024px;
+    left: 958px;
+    padding: 10px 0px 0px 0px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label_email{
+    width: 52px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.58px;
+    text-align: left;
+}
