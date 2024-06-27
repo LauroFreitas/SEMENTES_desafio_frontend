@@ -16,7 +16,7 @@
         <img src="/img/svg.png" alt="imagem">
     </div>
     <form class="conteudo">
-        <div class="itens">
+        <div class="conteiner">
             <div class="titulos">
                 <p class="popup">Bem-vindo de volta</p>
                 <p class="facaseulogin">Faça login na sua conta</p>
@@ -27,20 +27,23 @@
                         <label class="label_email" for="email">E-mail</label>
                         <input type="text" id="email" class="login" placeholder="exemplo@gmail.com">
                     </div>
-
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" class="senha" placeholder="0123456789">
-
-                    <div>
-                        <input type="checkbox" id="lembrar" class="checkbox">
-                        <label for="lembrar">Lembre de mim</label>
+                    <div class="div_senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" class="senha" placeholder="0123456789">
+                    </div>
+                    <div class="opcoes">
+                        <div class="div_checkbox">
+                            <input type="checkbox" id="lembrar" class="checkbox">
+                            <label for="lembrar">Lembre de mim</label>
+                        </div>
                         <a href="recuperarSenha.html">Esqueceu sua senha?</a>
                     </div>
+
                 </div>
 
                 <button type="submit" class="btnLogin">Entrar na conta</button>
                 <button type="button" class="btnGoogle">Ou faça login com o Google</button>
-                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+                <p class="cadastrar">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
             </div>
         </div>
     </form>
